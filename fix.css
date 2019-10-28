@@ -1,0 +1,81 @@
+.body-Web{
+    background: #f7f1f0;
+    font-family: Proxima Nova,Helvetica,Arial,sans-serif;
+}
+
+
+
+.thut-le{
+    padding-right: 500px;
+    list-style-type: none;
+}
+
+.thut-le li{
+    counter-increment: step-counter;
+    margin-bottom: 10px;
+}
+
+.thut-le li::before {
+    content: counter(step-counter);
+  margin-right: 5px;
+  font-size: 80%;
+  background-color: rgb(0,200,200);
+  color: white;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 3px;
+}
+
+.test{
+    color: #20303c;
+    font-weight: 400;
+    letter-spacing: .4px;
+    font-family: HelveticaNeueW01-45Ligh,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+.fixcung{
+    position:fixed;
+    top:10px;
+    right:10px;
+}
+
+.note{
+    font-style: italic;
+    color: #20303c;
+    font-weight: 400;
+    letter-spacing: .4px;
+    font-family: HelveticaNeueW01-45Ligh,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    
+}
+
+.header{
+    color: #d54d7b; 
+    font-family: "Great Vibes", cursive; 
+    font-size: 40px; 
+    line-height: 10px;
+    font-weight: normal;
+}
+
+.hr-style {
+    overflow: visible; 
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+.hr-style:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
